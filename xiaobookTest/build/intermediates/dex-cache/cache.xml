@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/libs/antlr-2.7.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="56e971d779b8aeee0366d11a613dcf9f7882a3b1">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/antlr-2.7.4-3297afbd78d4c7ed835efc81a259bd269e7ebb23.jar" />
+    </item>
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/libs/chardet-1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f7c063ce9ef5c742bebdd1712be9180d618fb559">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/chardet-1.0-d074c05d58e00c8d9b48e52496ba69c863b2456e.jar" />
+    </item>
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/libs/universal-image-loader-1.9.2-SNAPSHOT-with-sources.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e33324b770223932d467e4ec39639b0c15f3b94e">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.2-SNAPSHOT-with-sources-e721e26475c4f33a903852243d54d6fb5b466ee2.jar" />
+    </item>
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f21927d22fe31889ecce94dd697a2e75b137e0ef">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/classes-1d4f5eff7614c31e7ae70d95966c6df5c9ae4c29.jar" />
+    </item>
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/classes-0025a3d9271e9555a33888738311193b902ef29b.jar" />
+    </item>
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/libs/nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/nineoldandroids-2.4.0-d19e9302a665123c89b43d3e25353358b0be12ec.jar" />
+    </item>
+    <item
+        jar="/home/bting/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-529a71f8505c1dbec4e39365462469583561fa90.jar" />
+    </item>
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/libs/jargs-1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0c40b72d934ddbea05368df91456f4d3689296dd">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/jargs-1.0-ba23a2b92fef3435f717e29f8ea4e525f1d5dbeb.jar" />
+    </item>
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/jars/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-b9a06f436f640d6824255b6a9204fd0f42514d65.jar" />
+    </item>
+    <item
+        jar="/home/bting/Downloads/xiaobookTest/app/libs/cpdetector_1.0.10.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5e823a42ddfad49a445a89d15566792b9ed8ecac">
+        <dex dex="/home/bting/Downloads/xiaobookTest/app/build/intermediates/pre-dexed/debug/cpdetector_1.0.10-cb6dcde863db8d330de8f5fa33ab489d9fcdb8e4.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,75 @@
+<com.example.xiaobook.SlidingMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_menu"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:zhy="http://schemas.android.com/apk/res/com.example.xiaobook"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/img_frame_background"
+
+    android:scrollbars="none"
+    zhy:rightPadding="100dp" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <include layout="@layout/layout_menu" />
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+            <include layout="@layout/head" android:id="@+id/head"/>
+
+            <com.example.xiaobook.MyGridView
+                android:id="@+id/bookshelf"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/head"
+                android:cacheColorHint="#00000000"
+                android:columnWidth="90.0dip"
+                android:fadingEdge="none"
+                android:horizontalSpacing="5dp"
+                android:listSelector="#00000000"
+                android:numColumns="3"
+                android:scrollbars="none"
+                android:verticalSpacing="20dp" />
+
+            <!--<SlidingDrawer
+                android:id="@+id/sliding"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:content="@+id/allApps"
+                android:handle="@+id/imageViewIcon"
+                android:orientation="vertical" >
+
+
+                <Button
+                    android:id="@+id/imageViewIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/local_file"
+                    android:textSize="18dp"
+                    android:background="@drawable/btn_local" />
+
+                <GridView
+                    android:id="@+id/allApps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/file_list_bg"
+                    android:columnWidth="60dp"
+                    android:gravity="center"
+                    android:horizontalSpacing="10dp"
+                    android:numColumns="auto_fit"
+                    android:padding="10dp"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp" />
+
+            </SlidingDrawer>-->
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</com.example.xiaobook.SlidingMenu>

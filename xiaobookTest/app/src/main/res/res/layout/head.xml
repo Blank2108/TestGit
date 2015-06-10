@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlebar_big" >
+    <RelativeLayout
+        android:layout_width="50.0dip"
+        android:layout_height="50.0dip"
+        android:gravity="center" >
+
+        <ImageView
+
+            android:layout_marginLeft="10dip"
+            android:layout_width="50.0dip"
+            android:layout_height="50.0dip"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:onClick="toggleMenu"
+            android:src="@drawable/me_head_bg" />
+
+        <com.example.xiaobook.CircularImage
+            android:id="@+id/front_user_photo"
+            android:layout_width="40.0dip"
+            android:layout_height="40.0dip"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+        <!--<Button
+            android:id="@+id/btn_leftTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:text="菜单"
+            android:onClick="toggleMenu"
+            android:textColor="#ffffff"
+            android:background="@drawable/back_left" />
+        -->
+        <TextView
+            android:id="@+id/tv_head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:shadowColor="#ff000000"
+            android:shadowDx="2"
+            android:shadowDy="0"
+            android:shadowRadius="1"
+            android:text="@string/main_title"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_rightTop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:textColor="#ffffff"
+            android:background="@drawable/back_right"
+            android:text="@string/on_line"
+            />
+    </RelativeLayout>
